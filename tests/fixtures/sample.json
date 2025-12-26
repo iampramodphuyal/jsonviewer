@@ -1,0 +1,36 @@
+{
+  "name": "jv",
+  "version": "0.1.0",
+  "description": "A powerful JSON viewer",
+  "features": [
+    "Tree view",
+    "Fold/unfold",
+    "Search",
+    "Browser mode"
+  ],
+  "config": {
+    "theme": "dark",
+    "expandDepth": 2,
+    "shortcuts": {
+      "search": "/",
+      "quit": "q",
+      "help": "?"
+    }
+  },
+  "stats": {
+    "lines": 1000,
+    "files": 15,
+    "tests": true
+  },
+  "nullValue": null,
+  "numbers": [1, 2, 3.14, -42, 0],
+  "nested": {
+    "level1": {
+      "level2": {
+        "level3": {
+          "deep": "value"
+        }
+      }
+    }
+  }
+}
