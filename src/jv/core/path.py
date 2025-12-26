@@ -2,7 +2,6 @@
 
 from typing import Any
 
-
 def get_jsonpath(keys: list[str | int]) -> str:
     """
     Convert a list of keys to JSONPath notation.
